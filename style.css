@@ -1,0 +1,69 @@
+@font-face {
+    font-family: "StratosSkyeng";
+    font-style: normal;
+    font-weight: 400;
+    src: url(./fonts/stratosskyengweb-regular.woff2);
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+body {
+    background: #004980;
+    display: flex;
+    justify-content: center;
+}
+
+.difficulty {
+    background: #C2F5FF;
+    border-radius: 12px;
+    height: 459px;
+    width: 480px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 158px;
+}
+
+.difficulty_title {
+    font-family: "StratosSkyeng";
+    width: 208px;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    color: #004980;
+    margin-top: 52px;
+}
+
+.difficulty_button {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    margin-top: 48px;
+    margin-bottom: 67px;
+}
+
+.difficulty_selection_button {
+    font-family: "StratosSkyeng";
+    border-radius: 12px;
+    font-size: 64px;
+    color: #0080C1;
+    border-color: transparent;
+    height: 98px;
+    width: 97px;
+}
+
+.difficulty_start_button {
+    font-family: "StratosSkyeng";
+    width: 246px;
+    height: 50px;
+    background: #7AC100;
+    border-radius: 12px;
+    font-size: 24px;
+    color: #FFFFFF;
+    border-color: transparent;
+}
+
